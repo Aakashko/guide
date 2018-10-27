@@ -25,6 +25,6 @@ module.exports = ({ markdownAST }) => {
       return markdownToHTML(imageNode);
     }
 
-    return imageNode;
+    return imageNode; //returns the image
   });
 };
